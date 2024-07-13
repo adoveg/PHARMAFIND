@@ -2132,3 +2132,66 @@ a:hover, a:focus, a.active {
   position: absolute;
   transform: translate(-50%, -50%);
 }
+
+
+
+
+
+
+
+
+					
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .results {
+            text-align: center; /* Centra el contenido horizontalmente */
+            margin-top: 3rem; /* Márgen de 3 unidades hacia arriba */
+            margin-bottom: 2rem; /* Márgen de 2 unidades hacia abajo */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+			
+        }
+        .pharmacy {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            width: 200px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #3d85c6; /* Azul claro */
+        }
+        .pharmacy img {
+            width: 170px;
+            height: 85px;
+            margin-bottom: 10px;
+        }
+        .pharmacy h4 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        .pharmacy p {
+            margin: 5px 0;
+        }
+        .med-image {
+            text-align: center;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .med-image img {
+            width: 200px;
+            height: auto;
+        }
+        .lowest-price {
+            background-color: #7ddf53; /* Verde */
+        }
